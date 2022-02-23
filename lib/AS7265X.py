@@ -1,6 +1,6 @@
 """ MicroPython driver for the AS7265x 18-channel spectral sensor
     Edit by : Phumiphat Charoentananuwat"""
-
+# Kor long add sth ngongo na ja
 from micropython import const
 import time
 import struct
