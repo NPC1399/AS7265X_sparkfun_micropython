@@ -433,7 +433,7 @@ class AS7265X:
     def get_temperature_average(self):
         average = 0
         for i in range(0,3):
-            average = average + getTemperature(i)
+            average = average + self.getTemperature(i)
         return average/3
     
     #Does a soft reset
